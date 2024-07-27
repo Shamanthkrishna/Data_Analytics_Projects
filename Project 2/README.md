@@ -14,3 +14,23 @@ The project utilizes the following datasets:
 5. payments.csv: Details payment information including order ID, payment sequence, type, installments, and total amount.
 6. products.csv: Contains product details including ID, category, name length, description length, photo count, weight, dimensions (length, height, width).
 7. sellers.csv: Lists seller information including ID, zip code, city, and state.
+
+## Tools Used
+1. Pandas: For reading and processing CSV files.
+2. MySQL: For database management and querying.
+3. MySQL Connector: To connect Python with MySQL and execute SQL commands.
+4. Python: For scripting and automating data handling and querying.
+
+## Process
+1. Data Loading:
+- Load datasets into pandas DataFrames.
+- Clean column names and handle missing values.
+- Create and populate MySQL tables based on DataFrame structures.
+  
+2. SQL Queries:
+- Execute basic queries to gather insights such as unique cities and total sales.
+- Perform intermediate queries to analyze monthly orders and product metrics.
+- Run advanced queries to calculate moving averages, cumulative sales, growth rates, customer retention, and top-spending customers.
+
+## Conclusion
+The project provides a comprehensive analysis of retail data using SQL queries. By integrating Python with MySQL, the project automates data processing and querying, showcasing a detailed examination of the retail dataset.
